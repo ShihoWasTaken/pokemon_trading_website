@@ -1,10 +1,11 @@
 {
-    "name": "etudiant/pokemon_trading",
+    "name": "shiho-was-taken/poekmon_tradind_website",
+    "description": "Fichier composer du site de Pokemon",
     "license": "proprietary",
     "type": "project",
     "autoload": {
         "psr-4": {
-            "": "src/"
+            "AppBundle\\": "src/AppBundle/"
         },
         "classmap": [
             "app/AppKernel.php",
